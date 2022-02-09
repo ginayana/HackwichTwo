@@ -26,13 +26,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dae-T5-FMa">
-                                <rect key="frame" x="112" y="562" width="191" height="96"/>
+                                <rect key="frame" x="112" y="590" width="191" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="#8 Press Me"/>
                                 <connections>
-                                    <action selector="eightPressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vfo-X4-5Kv"/>
-                                    <segue destination="Emk-lQ-b13" kind="show" id="3rx-Nn-Dy8"/>
+                                    <segue destination="Emk-lQ-b13" kind="show" id="0b2-4X-0N1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="56.919642857142854"/>
+            <point key="canvasLocation" x="-1449" y="73"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="jzt-0h-4lf">
@@ -61,8 +60,8 @@
                                     <action selector="changeColorButtonPressed:" destination="Emk-lQ-b13" eventType="touchUpInside" id="l69-Jk-wF1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfE-ch-eVp">
-                                <rect key="frame" x="142" y="185" width="130" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfE-ch-eVp">
+                                <rect key="frame" x="20" y="140" width="374" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -74,12 +73,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="Vdf-Wl-Qiy"/>
                     <connections>
-                        <outlet property="firstLabel" destination="CfE-ch-eVp" id="CDL-1N-xK4"/>
+                        <outlet property="firstLabel" destination="PLA-Pc-fCj" id="61c-T3-ShQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tdb-fb-Zyp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-700" y="141.96428571428569"/>
+            <point key="canvasLocation" x="-749.27536231884062" y="72.991071428571431"/>
         </scene>
     </scenes>
     <resources>
